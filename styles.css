@@ -391,3 +391,10 @@ ul.nav-bar__links.nav-bar__icons {
         padding-left: 3vh;
     }
 }
+
+@supports (-webkit-touch-callout: none) {
+    #wrapper {
+        background: url("/images/background.jpg") center top no-repeat scroll;
+        background-size: auto 100vh;
+    }    
+}
