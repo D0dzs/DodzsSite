@@ -8,7 +8,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    background-image: url(../src/images/background.jpg);
+    background-image: url(/images/background.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,8 +20,8 @@ html {
 
 @font-face {
     font-family: AlphaCentauri;
-    src: url(../src/fonts/AlphaCentauri/AlphaCentauri.woff2) format("woff2"),
-    url(../src/fonts/AlphaCentauri/AlphaCentauri.woff) format("woff");
+    src: url(/fonts/AlphaCentauri/AlphaCentauri.woff2) format("woff2"),
+    url(/fonts/AlphaCentauri/AlphaCentauri.woff) format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -29,8 +29,8 @@ html {
 
 @font-face {
     font-family: Rajdhani;
-    src: url(../src/fonts/Rajdhani/Rajdhani-Regular.woff2) format("woff2"),
-    url(../src/fonts/Rajdhani/Rajdhani-Regular.woff);
+    src: url(/fonts/Rajdhani/Rajdhani-Regular.woff2) format("woff2"),
+    url(/fonts/Rajdhani/Rajdhani-Regular.woff);
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -38,7 +38,7 @@ html {
 
 @font-face {
     font-family: RandyGG;
-    src: url(../src/fonts/RandyGG/RandyGGRegular.ttf);
+    src: url(/fonts/RandyGG/RandyGGRegular.ttf);
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -46,7 +46,7 @@ html {
 
 @font-face {
     font-family: RandyGG;
-    src: url(../src/fonts/RandyGG/RandyGGBold.ttf);
+    src: url(/fonts/RandyGG/RandyGGBold.ttf);
     font-weight: 700;
     font-style: normal;
     font-display: swap
