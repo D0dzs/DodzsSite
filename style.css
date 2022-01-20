@@ -12,6 +12,10 @@
     --selector-color: #ee4447;
 }
 
+::selection {
+    color: var(--selector-color);
+}
+
 * {
     scroll-behavior: smooth;
     scrollbar-color: #454a4d #202324 !important;
@@ -37,15 +41,11 @@ body {
     padding: .8em;
 }
 
-::selection {
-    color: var(--selector-color);
-}
-
 #up-btn {
     opacity: 0;
     cursor: no-drop;
     position: fixed;
-    bottom: 20px;
+    bottom: 25px;
     right: 30px;
     width: 50px;
     height: 50px;
@@ -92,14 +92,11 @@ body {
 }
 
 .breakline {
+    color: gray;
     margin: 2rem auto;
     width: 95%;
     height: 1px;
     background-color: #c5c1bd;
-}
-
-.breakline {
-    color: gray;
 }
 
 #navbar-wrapper {
@@ -151,6 +148,7 @@ body {
 }
 
 .custom__grid-r-image {
+    transform: translateX(15%) translateY(-25%) !important;
     box-shadow: -10px 10px 14px #000000;
     width: 80%
 }
